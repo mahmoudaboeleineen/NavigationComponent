@@ -7,10 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.onNavDestinationSelected
-import androidx.navigation.ui.setupActionBarWithNavController
-import androidx.navigation.ui.setupWithNavController
+import androidx.navigation.ui.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -30,17 +27,19 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         appBarConfiguration = AppBarConfiguration(
-            setOf(R.id.homeFragment, R.id.searchFragment)
+            setOf(R.id.homeFragment, R.id.searchFragment),
+            drawer_layout
 
         )
 
         setupActionBarWithNavController(navController, appBarConfiguration)
         bottom_nav.setupWithNavController(navController)
 
+        nav_view.setupWithNavController(navController)
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        return navController.navigateUp() || super.onSupportNavigateUp()
+        return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
