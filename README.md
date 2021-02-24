@@ -5,12 +5,11 @@ the different pieces of content within your app.
 
 
 ## ScreenShots
-![1](https://user-images.githubusercontent.com/11637355/109074967-2850f900-7701-11eb-90e1-530827ac9066.png)
-![2](https://user-images.githubusercontent.com/11637355/109074970-2a1abc80-7701-11eb-81f2-e669fbe61d0d.png)
-![3](https://user-images.githubusercontent.com/11637355/109074980-2dae4380-7701-11eb-9efb-a46f710ab938.png)
-![4](https://user-images.githubusercontent.com/11637355/109074986-2f780700-7701-11eb-89b2-14fcf08e8f3d.png)
-![5](https://user-images.githubusercontent.com/11637355/109074989-30a93400-7701-11eb-8fd6-44efccb0ddab.png)
-![6](https://user-images.githubusercontent.com/11637355/109074996-3272f780-7701-11eb-99f5-1740df3fc5d2.png)
-
+![1](https://user-images.githubusercontent.com/11637355/109075228-867ddc00-7701-11eb-83d2-c3c74d9e553e.png)
+![2](https://user-images.githubusercontent.com/11637355/109075224-854caf00-7701-11eb-92e1-7ffa80e17393.png)
+![3](https://user-images.githubusercontent.com/11637355/109075221-84b41880-7701-11eb-8edb-cb5b6aa3bafc.png)
+![4](https://user-images.githubusercontent.com/11637355/109075216-841b8200-7701-11eb-9e8e-40b7e5ef2515.png)
+![5](https://user-images.githubusercontent.com/11637355/109075206-81209180-7701-11eb-9279-a439f887496a.png)
+![6](https://user-images.githubusercontent.com/11637355/109075202-7f56ce00-7701-11eb-9368-9d9fa346617e.png)
 
 
